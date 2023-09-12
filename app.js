@@ -31,7 +31,7 @@ yargs.command({
     command: 'list',
     describe:'Listing all existing notes',
     handler: function(){
-        console.log('Notes list here!')
+        console.log('Notes list is displayed here!')
     }
 })
 console.log(yargs.argv);
