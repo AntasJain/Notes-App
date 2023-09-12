@@ -1,0 +1,12 @@
+const fs = require('fs')
+// //fs.writeFileSync('notes.txt','This is Antas Jain, learning NodeJS')
+// //Challenge: Appenf a message to notes.txt
+// //fs.appendFileSync('notes.txt','\nTHird Line')
+// const utils = require('./utlis.js')
+const name = 'Antas'
+console.log(utils(2,3));
+requires runs first hence data from utils is being printed first
+-----------
+challenge 
+const n = require('./notes.js')
+console.log(n);
